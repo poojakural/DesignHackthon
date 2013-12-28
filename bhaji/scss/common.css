@@ -1,0 +1,389 @@
+/*===================================== Reset Css UI========================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: Lato;
+  vertical-align: baseline;
+  color: #7E7774; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+li {
+  list-style-type: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*===================================== Reset Css UI End ========================================*/
+/*====================================== Header UI ============================================*/
+.header-main {
+  background: #34d1c6; }
+
+.share-links-wrapper li a {
+  color: #fff;
+  text-transform: capitalize; }
+  .share-links-wrapper li a:hover {
+    color: #34d1c6; }
+  .share-links-wrapper li a:active {
+    color: #34d1c6; }
+.share-links-wrapper .share-links .facebook {
+  background: #5291bd; }
+.share-links-wrapper .share-links .twitter {
+  background: #53c1dd; }
+.share-links-wrapper .share-links .rss {
+  background: #f6b14a; }
+.share-links-wrapper .share-links .pinterest {
+  background: #d85557; }
+.share-links-wrapper .share-links i {
+  color: #fff; }
+.share-links-wrapper .share-links .share-round {
+  border-radius: 22px;
+  margin-right: 10px;
+  padding: 5px 10px; }
+
+/*====================================== Header UI End============================================*/
+/*========================================Common UI================================================*/
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /*chrome*/ }
+
+.text-center {
+  text-align: center; }
+
+a {
+  color: #34D1C6;
+  text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+.main-content .subheading {
+  text-align: center; }
+.main-content .col-one .col-one-inner .content-links {
+  text-align: center;
+  font-weight: bold; }
+.main-content .grid-structure a {
+  font-weight: bold; }
+
+.all-work {
+  background: #F7F7F7;
+  display: inline-block;
+  padding: 16px 27px; }
+  .all-work a {
+    color: #B3ADAC;
+    font-style: italic;
+    text-decoration: none; }
+
+.bar {
+  border: 1px solid #DDDDDD;
+  margin: 50px 0; }
+
+.footer {
+  background: url("../work/footer.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+  padding-top: 51px; }
+  .footer .footer-inner {
+    background: #34d1c6;
+    padding: 70px 20px 50px; }
+    .footer .footer-inner p, .footer .footer-inner h2 {
+      color: #fff;
+      font-weight: normal; }
+    .footer .footer-inner .footer-share {
+      margin: 30px 0 0 0; }
+      .footer .footer-inner .footer-share .share-round {
+        background: #FFFFFF;
+        border-radius: 29px;
+        margin-right: 10px;
+        padding: 11px 13px; }
+        .footer .footer-inner .footer-share .share-round i {
+          color: #2fd4c6;
+          font-size: 18px; }
+        .footer .footer-inner .footer-share .share-round:hover {
+          opacity: 0.4; }
+    .footer .footer-inner .submit {
+      background: #FFFFFF;
+      display: inline-block;
+      padding: 14px 27px; }
+      .footer .footer-inner .submit a {
+        font-style: italic;
+        font-weight: bold; }
+    .footer .footer-inner .copyright {
+      color: #fff;
+      border-top: 1px solid #fff; }
+      .footer .footer-inner .copyright span {
+        color: #fff;
+        text-transform: capitalize; }
+        .footer .footer-inner .copyright span:first-child {
+          margin-right: 10px; }
+        .footer .footer-inner .copyright span:last-child {
+          margin-left: 10px; }
+
+.tabular-form {
+  overflow: hidden; }
+  .tabular-form .single-grid li {
+    float: left; }
+
+.view-clients a {
+  font-weight: bold; }
+
+.hover-effect .overlay-wrapper {
+  position: relative; }
+  .hover-effect .overlay-wrapper img {
+    position: relative;
+    z-index: 0; }
+  .hover-effect .overlay-wrapper .overlay {
+    background: none repeat scroll 0 0 #34D1C6;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9; }
+
+/*========================================Common UI End================================================*/
+/*========================================Mobile UI================================================*/
+@media only screen and (min-width: 240px) and (max-width: 770px) {
+  .subheading,
+  .highlight p {
+    font-size: 30px;
+    line-height: 32px; }
+
+  .subheading {
+    margin: 30px 36px; }
+
+  .highlight p {
+    padding: 20px 20px 67px;
+    background: #f7f7f7; }
+  .highlight .image-logo {
+    margin: -35px auto 0;
+    text-align: center;
+    width: 19%; }
+
+  .main-content .col-one,
+  .main-content .col-two {
+    margin: 0 20px; }
+  .main-content .grid-structure li {
+    margin: 0 0 30px 0; }
+  .main-content .grid-structure .image {
+    margin: 0 0 15px 0; }
+  .main-content .col-one .col-one-inner .links:last-child {
+    display: block; }
+  .main-content .col-one .col-one-inner .content-links a {
+    line-height: 19px;
+    margin: 0 20px 0 0; }
+
+  .share-links-wrapper {
+    background: #34d1c6;
+    display: none;
+    padding: 20px 20px; }
+    .share-links-wrapper .share-links {
+      margin-top: 30px; }
+    .share-links-wrapper li {
+      border-bottom: 1px solid #54D8CF;
+      padding: 14px 0; }
+
+  .header-main {
+    height: 109px;
+    padding: 40px 22px 30px; }
+    .header-main .logo {
+      float: left; }
+    .header-main .menu {
+      background: #54D8CF;
+      color: #FFFFFF;
+      float: right;
+      padding: 11px 11px 12px; }
+
+  .grid-structure ul {
+    margin: 70px 0 40px; }
+
+  .hideon-mobile {
+    display: none; }
+
+  .footer {
+    margin-top: 108px; }
+    .footer .footer-col-one .message {
+      font-size: 34px;
+      line-height: 42px; }
+    .footer .footer-col-one .short-message {
+      font-size: 18px;
+      margin: 30px 0; }
+    .footer h2 {
+      font-size: 33px;
+      margin: 0 0 30px 0; }
+    .footer p {
+      font-size: 18px;
+      margin: 0 0 10px 0; }
+    .footer .footer-col-two,
+    .footer .footer-col-three {
+      margin: 50px 0 0 0; }
+    .footer .submit {
+      margin-top: 20px; }
+    .footer .copyright {
+      border-top: 1px solid #FFFFFF;
+      margin-top: 40px;
+      padding-top: 30px; }
+
+  .tabular-form .single-grid li {
+    width: 45%;
+    margin-right: 5%; }
+
+  .work-highlight {
+    background: #F7F7F7;
+    padding: 40px 20px; }
+    .work-highlight p {
+      background: none;
+      padding: 0 0 30px 0; } }
+/*========================================Mobile UI End================================================*/
+/*========================================Desktop UI ================================================*/
+@media only screen and (min-width: 771px) {
+  .highlight-image,
+  .main-content,
+  .image-logo,
+  .header-inner,
+  .footer-inner-container,
+  .view-clients {
+    margin: 0 auto;
+    max-width: 1366px;
+    width: 100%; }
+
+  .hidden-desktop {
+    display: none; }
+
+  .visible-desktop {
+    display: block; }
+
+  .header-main {
+    height: 109px;
+    padding: 40px 20px; }
+    .header-main .share-links-wrapper {
+      float: right;
+      margin: -10px 0 0 0; }
+      .header-main .share-links-wrapper li {
+        display: inline;
+        margin: 0 30px 0 0; }
+      .header-main .share-links-wrapper .links,
+      .header-main .share-links-wrapper .share-links {
+        float: left; }
+
+  .main-content {
+    overflow: hidden;
+    margin-top: 150px; }
+    .main-content .subheading {
+      font-size: 40px;
+      margin-bottom: 20px; }
+    .main-content .links {
+      font-size: 20px;
+      margin: 20px; }
+    .main-content .grid-strcuture-col {
+      overflow: hidden;
+      margin: 80px 0 30px 0; }
+    .main-content .single-grid {
+      margin: 80px 0 30px 0; }
+    .main-content .grid-structure {
+      overflow: hidden; }
+      .main-content .grid-structure li {
+        float: left;
+        margin: 0 2% 20px 0;
+        width: 30%; }
+    .main-content .single-grid li {
+      width: 23%; }
+    .main-content .single-grid .image {
+      margin: 0 0 20px 0; }
+    .main-content .content-links {
+      margin: 20px 0 0px 0; }
+
+  .highlight-inner .highlight-image-wrapper {
+    background: #F7F7F7; }
+    .highlight-inner .highlight-image-wrapper .highlight-image {
+      position: relative; }
+      .highlight-inner .highlight-image-wrapper .highlight-image p {
+        color: #FFFFFF;
+        font-size: 40px;
+        line-height: 52px;
+        position: absolute;
+        right: 10px;
+        top: 18%;
+        width: 38%; }
+      .highlight-inner .highlight-image-wrapper .highlight-image .image-logo {
+        bottom: -41px;
+        position: absolute;
+        text-align: center; }
+
+  .footer {
+    margin-top: 115px; }
+    .footer .footer-inner-col {
+      overflow: hidden;
+      padding-bottom: 20px; }
+      .footer .footer-inner-col .footer-col {
+        float: left;
+        margin-top: 0; }
+      .footer .footer-inner-col .footer-col-one {
+        width: 42%; }
+      .footer .footer-inner-col .footer-col-two {
+        margin-left: 110px;
+        margin-right: 72px;
+        width: 22%; }
+      .footer .footer-inner-col .footer-col-three {
+        width: 22%; }
+    .footer .footer-bottom .copyright {
+      text-align: center;
+      margin: 30px 0 0 0;
+      padding-top: 30px; }
+    .footer h2 {
+      font-size: 34px;
+      margin: 0 0 30px 0; }
+    .footer p {
+      font-size: 20px;
+      margin: 0 0 10px 0; }
+    .footer .message {
+      font-size: 34px; }
+
+  .work-highlight .highlight-inner .highlight-image-wrapper p {
+    font-size: 40px;
+    line-height: 52px;
+    padding: 40px 0 0 10px;
+    position: relative;
+    right: 10px;
+    top: 18%;
+    width: auto;
+    color: #7E7774; }
+  .work-highlight .highlight-inner .highlight-image-wrapper .view-clients {
+    padding: 10px 0 40px 0; }
+
+  .tabular-form {
+    margin-top: 10px; } }
+/*========================================Desktop UI End================================================*/
